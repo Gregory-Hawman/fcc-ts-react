@@ -71,7 +71,7 @@ export default function TodoCard({todo, todoList, setTodoList, index}: Props) {
                     onChange={(e) => setEditTodo(e.target.value)}
                     className="todo-card-edit"
                   />
-                  <button type='submit'>Go</button>
+                  <button type='submit'>Enter</button>
                 </div>
               ):(
                 todo.isDone ? (
