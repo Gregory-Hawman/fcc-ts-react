@@ -27,7 +27,7 @@ const InputField = ({ todo, setTodo, handleAddTodo }:Props) => {
                         (e)=>setTodo(e.target.value)
                     }
                 />
-                <button className='input-submit' type='submit'>Go</button>
+                <button className='input-submit' type='submit'>Add Task</button>
             </form>
         </div>
     )

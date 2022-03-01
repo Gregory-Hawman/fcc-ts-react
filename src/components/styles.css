@@ -23,7 +23,7 @@
 
 .input-submit {
     position: absolute;
-    width: 3rem;
+    width: 6rem;
     height: 3rem;
     margin: .75rem;
     border-radius: 50px;
@@ -107,7 +107,6 @@
 
 .todo-card-form {
     width: 100%;
-    border: 1px solid black;
 }
 
 .todo-card-text {
