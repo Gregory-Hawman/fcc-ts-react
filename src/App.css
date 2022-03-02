@@ -20,7 +20,11 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .App {
+    height: 100%
+  }
+
   .heading {
     margin: 1rem 0;
     font-size: 3rem;

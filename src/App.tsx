@@ -49,7 +49,7 @@ const App: React.FC = () => {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="App">
-        <span className="heading">Typescript Todo</span>
+        <span className="heading">Typescript-Todo</span>
         <InputField 
           todo={todo}
           setTodo={setTodo} 
